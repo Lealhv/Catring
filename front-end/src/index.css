@@ -1,0 +1,382 @@
+* {
+  color: rgb(253, 158, 26);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.aa {
+  text-align: center;
+  /* height: 400px; */
+  width: 50%;
+  background-color: white;
+  justify-items: center;
+  /* padding-top: 60px; */
+  border-radius: 100px;
+}
+
+.rashiHot {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.hotDiv {
+  background-color: white;
+}
+
+.pic2 {
+  text-align: center;
+  /* padding-left: 70px; */
+  /* padding-right: 270px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.rashiInvent {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu {
+  width: 85%;
+  padding-top: 3%;
+  padding-right: 10px;
+  height: 150px;
+}
+
+.topButton {
+  background-color: white;
+  color: rgb(253, 158, 26);
+  width: 100%;
+  border: rgb(253, 158, 26) 2px solid;
+  font-size: xx-large;
+}
+
+.TheButton {
+  width: 100%;
+  background-color: white;
+  border: rgb(253, 158, 26) 2px solid;
+  height: 70px;
+}
+
+.open {
+  width: 25%;
+  background-color: white;
+  height: 30px;
+}
+
+/* .myTable{
+    border: 5px solid;
+    border-color: black;
+
+  } */
+
+.dropbtn {
+  background-color: rgb(253, 158, 26);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 100%;
+  border: black solid 1px;
+}
+
+/* .myImg {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 25%;
+  right: 25%;
+  background-color: #54a079;
+  overflow: hidden;
+  width: 50%;
+  height: 50%;
+  transition: .5s ease;
+  justify-items: center;
+} */
+
+#dropbtn {
+  background-color: white;
+  color: rgb(13, 12, 12);
+  padding: 16px;
+  font-size: 16px;
+  border: rgb(253, 158, 26) 2px solid;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 223px;
+}
+
+#dropup {
+  width: 20%;
+  border-radius: 5px;
+  background-color: #cccccc00;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  bottom: 50px;
+  overflow: auto;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {
+  background-color: #ccc
+}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: rgb(253, 158, 26);
+}
+
+.marque {
+  background-color: white;
+  padding-bottom: 0%;
+}
+
+.marque2 {
+  height: 20px;
+}
+
+#r1 {
+  display: flex;
+  /* background-color: rgb(0, 255, 213); */
+  height: 100%;
+  width: 20%;
+}
+
+.known {
+  width: 100%;
+}
+
+.hhhh {
+  width: 100px;
+  background-color: rgb(253, 158, 26);
+}
+
+table,
+td {
+  border: 0.01px solid #ffffff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(253, 158, 26, 0.301);
+}
+
+th {
+  width: 50%;
+}
+
+td {
+  width: 50%;
+}
+
+.theTable {
+  overflow-y: scroll;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  justify-items: center;
+}
+
+#theTable {
+  background-color: white;
+  width: 50%;
+}
+
+.filterButton {
+  display: flex;
+  flex-direction: column;
+}
+
+.saveCustomer {
+  text-align: center;
+  width: 50px;
+}
+
+.showAllPageFood {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.mySalRashi {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+#setMyFoodOpen{
+width: 100%;
+}
+
+.type-All-Food {
+  width: 100%;
+}
+
+.my {
+  border-color: aqua;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(253, 158, 26);
+  border-radius: 20px;
+}
+
+#myBar {
+  width: 0%;
+  height: 20px;
+  background-color: rgb(253, 158, 26);
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.myBar {
+  width: 80%;
+}
+
+#header {
+  background-color: #f1f1f1;
+  /* Grey background */
+  padding: 50px 10px;
+  /* Some padding */
+  color: black;
+  text-align: center;
+  /* Centered text */
+  font-size: 90px;
+  /* Big font size */
+  font-weight: bold;
+  position: fixed;
+  /* Fixed position - sit on top of the page */
+  top: 0;
+  width: 100%;
+  /* Full width */
+  transition: 0.4s;
+  /* Add a transition effect (when scrolling - and font size is decreased) */
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 80px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+/* Remove default bullets */
+ul,
+#myUL {
+  list-style-type: none;
+}
+
+/* Remove margins and padding from the parent ul */
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the caret/arrow */
+.caret {
+  cursor: pointer;
+  user-select: none;
+  /* Prevent text selection */
+}
+
+/* Create the caret/arrow with a unicode, and style it */
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+.caret-down::before {
+  transform: rotate(90deg);
+}
+
+/* Hide the nested list */
+.nested {
+  display: none;
+}
+
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+.active {
+  display: block;
+}
+
+
+/*more - tooltips
+  more - Alerts
+  Cutout Text - רקע אטום וכיתוב ריק
+  Glowing Text - כתב זוהר
+  Snackar - הודעה חמודה למספר שניות
+  scroll Drawning
+  Gradient Bg Scroll - רקע מתחלף בגלילה
+  Shrink Header on Scroll - כותרת מתקטנת בגלילה
+  Typewriter - כתיבה איטית כמו הקלדה
+  Tree View - כמו התיקיות של ג'אווה
+  Scroll To Top Buttom - כפתור לחזור לראש הרשימה
+  Scroll Indicator - ירוק בגלילה
+  Collapsible - לחיצה על כפתור פותחת דיב של כיתוב
+*/
